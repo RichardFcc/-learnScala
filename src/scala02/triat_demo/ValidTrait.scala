@@ -6,7 +6,7 @@ trait ValidTrait {
   def getName: String                             //抽象方法
   def valid: Boolean = {"Tom".equals(this.getName)//具体方法，具体方法的返回值依赖于抽象方法
 
-  }
+  } 
 }
 
 class PersonForValid(val name: String) extends ValidTrait {
