@@ -4,6 +4,7 @@ package scala02.extends_demo
 class Person4 {}
 class Student4 extends Person4
 
+
 object Student4{
   def main(args: Array[String]) {
 
