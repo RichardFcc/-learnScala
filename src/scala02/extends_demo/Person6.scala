@@ -15,6 +15,7 @@ class Student6 extends Person6{
   //父类使用protected 关键字来修饰method可以直接访问
   def  sayByeBye=sayBye
 
+ 
   def makeFriends(s:Student6)={
     println("My hobby is "+hobby+", your hobby is UnKnown")
   }
