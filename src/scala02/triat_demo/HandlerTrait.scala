@@ -4,7 +4,7 @@ package scala02.triat_demo
 trait HandlerTrait {
   def handle(data: String) = {println("last one")}
 }
-
+ 
 trait DataValidHandlerTrait extends HandlerTrait {
   override def handle(data: String) = {
               println("check data: " + data)
