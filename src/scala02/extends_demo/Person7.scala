@@ -5,6 +5,7 @@ class Person7(val name:String,val age:Int){
   var score :Double=0.0
   var address:String="beijing"
 
+  
   def this(name:String,score:Double)={
     //每个辅助constructor的第一行都必须调用其他辅助constructor或者主constructor代码
     //主constructor代码
