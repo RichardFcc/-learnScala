@@ -14,6 +14,7 @@ object Student5{
       // 匹配所有剩余情况
       case _  =>println("Unknown type!")
     }
+ 
   }
 }
 
