@@ -1,7 +1,7 @@
 package scala02.extends_demo
 
 //todo: Scala中匿名内部类
-
+ 
 class Person8(val name:String) {
   def sayHello="Hello ,I'm "+name
 
