@@ -17,6 +17,8 @@ object Student3{
     //把 p 转换成 Student3 对象的实例
       s = p.asInstanceOf[Student3]
   }
-  println (s.isInstanceOf[Student3] )
-  }
+ 
+        println (s.isInstanceOf[Student3] )
+ 
+    }
 }
