@@ -6,6 +6,7 @@ class Person {
   //既有set又有get
   var age=28
 
+  
    def print():Unit={
      println("hello")
    }

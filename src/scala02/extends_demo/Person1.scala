@@ -15,5 +15,6 @@ class Student1 extends Person1{
   def getScore = this.score
   //覆盖父类非抽象方法，必须要使用 override 关键字
   //同时调用父类的方法，使用super关键字
+ 
   override def getName = "your name is " + super.getName
 }

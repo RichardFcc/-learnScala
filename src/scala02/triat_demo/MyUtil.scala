@@ -5,7 +5,7 @@ package scala02.triat_demo
 class MyUtil {
   def printMsg(msg: String) = println(msg)
 }
-
+ 
 trait Logger_Two extends MyUtil {
   def log(msg: String) = this.printMsg("log: " + msg)
 }

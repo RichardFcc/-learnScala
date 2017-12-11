@@ -21,6 +21,7 @@ class Child(name: String) extends Father(name){
   }
 }
 
+
 object LowerDemo {
   def main(args: Array[String]) {
     new Child("lisi").getIDCard(new Father("zhangsan"))

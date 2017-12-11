@@ -16,7 +16,7 @@ class Person_Two extends SayHello_One {
 object Person_Two{
   def main(args: Array[String]) {
     val p = new Person_Two
-    p.msg
+    p.msg 
   }
 }
 

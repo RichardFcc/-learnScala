@@ -10,6 +10,7 @@ object CaseDemo02 extends App{
     case x: Int => println("Int " + x)
     case y: Double if(y >= 0) => println("Double "+ y)
     case z: String => println("String " + z)
+    
     case _ => throw new Exception("not match exception")
   }
 }

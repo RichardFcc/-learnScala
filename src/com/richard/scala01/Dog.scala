@@ -20,4 +20,5 @@ object Dog {
     p.printName()
   }
 }
+
 //执行结果 汪汪汪 : 123

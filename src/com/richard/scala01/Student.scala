@@ -1,4 +1,4 @@
-/*
+
 package com.ricahrd.scala01
 
 class Student (val name: String,val age:Int) {
@@ -17,4 +17,4 @@ object Student{
         //val richard = new Student("richard",24,"bj")
 }
 }
-*/
+

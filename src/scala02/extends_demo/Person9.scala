@@ -18,7 +18,7 @@ class Student9(name:String) extends Person9(name){
 
   def sayBye: String ="Bye,"+name
 
-}
+} 
 
 object Student9{
   def main(args: Array[String]) {

@@ -5,6 +5,7 @@ package scala02.triat_demo
  * spark就使用trait定义了通用的日志打印方法；
  */
 
+
 trait Logger {
   //定义了一个 具体的方法，有方法体
   def log(message: String): Unit = println(message)

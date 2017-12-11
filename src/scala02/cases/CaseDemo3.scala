@@ -30,5 +30,6 @@ object CaseDemo03 extends App{
     case (1, x, y)        => println(s"1, $x , $y")
     case (_, z, 5)        => println(z)
     case  _               => println("others")
+  
   }
 }

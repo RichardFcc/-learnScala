@@ -21,5 +21,6 @@ object Covariance_demo{
     //val t3: Temp3[Sub] = new Temp3[Super]("hello scala!!!")
     println(t1.toString)
     println(t2.toString)
+  
   }
 }

@@ -94,5 +94,5 @@ object  WordCount{
     // List((storm,2), (spark,2), (app,2), (hive,3), (richard,3), (scala,4), (hadoop,5))
     println(resultList.map(_.result).flatten.groupBy(_._1).mapValues(x=>x.foldLeft(0)(_+_._2)).toList.sortBy(_._2).reverse)
     //List((hadoop,5), (scala,4), (richard,3), (hive,3), (app,2), (spark,2), (storm,2))
-}
+ }
 }

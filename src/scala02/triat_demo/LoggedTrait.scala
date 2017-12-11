@@ -35,7 +35,8 @@ object PersonForMixTraitMethod{
 
     //Hi, I'm Rose
     // og: sayHello method is invoked!
-          //不再走父类的log方法，而是走混入的trait的方法
+         
+    //不再走父类的log方法，而是走混入的trait的方法
 
   }
 }
