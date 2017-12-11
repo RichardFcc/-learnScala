@@ -16,5 +16,6 @@ object CaseDemo04 extends App{
     case HeartBeat(time) => { println(time)}
     case CheckTimeOutTask => {println("check...")}
     case stoptask    =>{println("stop...")}
+  
   }
 }
