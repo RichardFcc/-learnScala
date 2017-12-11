@@ -30,6 +30,7 @@ object Children{
     //调用的时候看，有没有参数，集体调用的时候就可以看参数找到属于主构造器还是辅助构造器
     //谁调用this就是谁
     c1.sayHello()
+   
     c1.makeFriends(c2)
   }
 }
