@@ -20,7 +20,7 @@ class Student(name: String) extends Person(name)
 class Party1[T <: Person](val p1: T, val p2: T)  {
 
   def play = p1.makeFriends(p2)
-}
+} 
 
 object UpperDemo {
   def main(args: Array[String]) {
