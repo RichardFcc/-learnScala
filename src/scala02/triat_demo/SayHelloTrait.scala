@@ -27,6 +27,6 @@ object PersonForAbstractField{
     val p1=new PersonForAbstractField("Tom")
     val p2=new PersonForAbstractField("Rose")
     p1.makeFriends(p2)
-  }
+   }
 }
 
