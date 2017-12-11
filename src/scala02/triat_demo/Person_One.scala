@@ -5,7 +5,7 @@ package scala02.triat_demo
 class Person_One {
   println("Person's constructor!")
 }
-
+ 
 trait Logger_One {
   println("Logger's constructor!")
 }
